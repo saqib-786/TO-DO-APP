@@ -1,0 +1,114 @@
+body{
+    background-image: url(.//Background.jpg);
+}
+#main-body{
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    height: 50px;
+    background-color: black;
+}
+
+
+#to-do{
+    width: 570px;
+    min-height: 600px;
+    padding-top: 60px;
+    background-color: black;
+    margin:20px auto ;
+    border: 5px solid gold;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: blanchedalmond;
+    font-family: 'Patua One', cursive;
+
+}
+input{
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid gold;
+    font-size: 15px;
+    background-color:blanchedalmond;
+    box-sizing: border-box;
+    margin: 5px;
+    font-family: 'Patua One', cursive;
+   
+}
+p{
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Patua One', cursive;
+    color: blanchedalmond;
+
+
+}
+button{
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition-property: width,height;
+    transition-duration: 2s,2s;
+    outline: none;
+    font-family: 'Patua One', cursive;
+    background-color: blanchedalmond;
+
+}
+#input-Item{
+    position: relative;
+    left: 20px;
+}
+#btn{
+    margin: 20px auto;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+ul{
+    font-family: 'Patua One', cursive;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}.btn_1{
+    background-color: black;
+    color: gold;
+    border: hidden;
+    font-size: 12px;
+    padding:10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.eidtbtn{
+    background-color: black;
+    color: gold;
+    border: hidden;
+    font-size: 12px;
+    padding:10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 15px;
+}
+h2{
+    font-family:'Patua One', cursive ;
+    color: blanchedalmond;
+    margin: 10px;
+    position: relative;
+    bottom:  14px;
+    display: inline-block;
+    padding: 5px;
+}
+input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
